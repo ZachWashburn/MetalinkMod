@@ -1,0 +1,1283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{657fdb7b-1f3b-4cdb-967f-6f77efe14ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{2bb3155e-5cd6-4470-9606-7c378446941b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\tier0">
+      <UniqueIdentifier>{36551c38-f967-4be8-83a8-38b828928fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\tier1">
+      <UniqueIdentifier>{9eb36f03-9a17-447f-9f97-d4d6f6bc8440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\mathlib">
+      <UniqueIdentifier>{3debff0c-cc30-454e-b1d8-cdd125a7b688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\appframework">
+      <UniqueIdentifier>{071e426e-9b6d-4bbb-babc-e6980bbfd8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\MinHook">
+      <UniqueIdentifier>{a7b463a1-dd98-4591-b7f1-c3a2891b5e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\MinHook\hde">
+      <UniqueIdentifier>{e59b0386-ffee-42ee-bf0b-5459834b8074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\SteamWorks">
+      <UniqueIdentifier>{1d43a40a-e312-4295-b720-882607098d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\SteamWorks\steam">
+      <UniqueIdentifier>{4f11f9c9-c0cf-489f-8989-153866add99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Protobuf">
+      <UniqueIdentifier>{a9d16563-923f-46ac-8560-0c6a755e0c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Protobuf\Headers">
+      <UniqueIdentifier>{eb84f11b-5b8a-4abc-9e50-238087432df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Protobuf\Headers\google">
+      <UniqueIdentifier>{98c7b726-6167-4241-86e5-141f7d27a22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Protobuf\Headers\google\protobuf">
+      <UniqueIdentifier>{7309cf69-d7a1-41c5-9f1a-6abf1ad37859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\nholmanmn">
+      <UniqueIdentifier>{e07c8c5c-2e8e-4c78-9fb3-7ceb92a7695c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{44171957-3f09-4b68-8a0e-a8ebd3038450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{f1ef111a-8eb9-4fc6-b4b9-631f340ee41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Allocator">
+      <UniqueIdentifier>{3defcf6f-8325-4b90-b697-001fe3f0eacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Helpers">
+      <UniqueIdentifier>{47658d2b-0866-4114-99ab-1ab878a0fee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{7fd5bcf5-bd38-482f-b1a0-719d5c087d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\imgui-master">
+      <UniqueIdentifier>{4e3ca63f-8e24-4fed-8008-e32c8d2c4535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\imgui-master\backends">
+      <UniqueIdentifier>{088a192e-45e1-4bfa-9fbf-bae8d2ed69e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{41374b0c-4e76-41db-965e-9d93ec965336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Custom-GetProcAddress-and-GetModuleHandle">
+      <UniqueIdentifier>{d40426a1-ab20-45de-807b-a75b8c5752cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{6f3550e0-f44f-4496-af7e-c0baefb1f156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK-Addition">
+      <UniqueIdentifier>{12ce8ff3-0d59-4ca7-8575-e9030099027f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK-Addition\Records">
+      <UniqueIdentifier>{2a22c88e-7c00-4798-a87a-276c24ea8dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Headers">
+      <UniqueIdentifier>{f21ed37b-25dc-44af-899b-538f7e7b49d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\SteamNetworkingSockets">
+      <UniqueIdentifier>{f2165fd1-c3e5-450f-88bb-1e3e836962b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{0825ef08-6746-402e-80c2-7f178ba9e777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d7d5c5b0-d502-487c-8a2b-8978a48aa3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Fonts">
+      <UniqueIdentifier>{6b394e8f-27e2-4158-98b5-586c15ca7bb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseIncludes.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PREPROCESSOR.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\XOR_STR.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Color.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\winlite.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\datamap.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\worldsize.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\BitVector.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\coordsize.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\bitvec.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\appframework\AppFramework.h">
+      <Filter>SDK\appframework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\appframework\IAppSystemGroup.h">
+      <Filter>SDK\appframework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\appframework\iappsystem.h">
+      <Filter>SDK\appframework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier0\platform.h">
+      <Filter>SDK\tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\buffer.h">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\MinHook.h">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\trampoline.h">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\hde\hde32.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\hde\hde64.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\hde\pstdint.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\hde\table32.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MinHook\hde\table64.h">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamapplist.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamapps.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamappticket.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamclient.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamcontroller.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamfriends.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamgamecoordinator.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamgameserver.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamgameserverstats.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamhtmlsurface.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamhttp.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteaminput.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteaminventory.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteammasterserverupdater.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteammatchmaking.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteammusic.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteammusicremote.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamnetworking.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamnetworkingmessages.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamnetworkingsockets.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamnetworkingutils.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamparentalsettings.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamps3overlayrenderer.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamremoteplay.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamremotestorage.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamscreenshots.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamugc.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamuser.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamuserstats.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamutils.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\isteamvideo.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\matchmakingtypes.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steam_api.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steam_api_common.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steam_api_flat.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steam_api_internal.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steam_gameserver.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamclientpublic.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamdatagram_tickets.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamencryptedappticket.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamhttpenums.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamnetworkingtypes.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamps3params.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamtypes.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\SteamWorks\steam\steamuniverse.h">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\any.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\any.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\api.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\arena.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\arena_impl.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\arenastring.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\descriptor.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\descriptor.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\descriptor_database.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\duration.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\dynamic_message.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\empty.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\extension_set.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\extension_set_inl.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\field_mask.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\generated_enum_reflection.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\generated_enum_util.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\generated_message_reflection.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\generated_message_table_driven.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\generated_message_util.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\has_bits.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\implicit_weak_message.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\inlined_string_field.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map_entry.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map_entry_lite.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map_field.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map_field_inl.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map_field_lite.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\map_type_handler.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\message.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\message_lite.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\metadata.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\metadata_lite.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\parse_context.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\port.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\reflection.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\reflection_ops.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\repeated_field.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\service.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\source_context.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\struct.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\text_format.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\timestamp.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\type.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\unknown_field_set.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\wire_format.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\wire_format_lite.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\google\protobuf\wrappers.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\CrossCheatTalkMessages.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\netmessages.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\cstrike15_gcmessages.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\cstrike15_usermessages.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\engine_gcmessages.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Protobuf\Headers\steammessages.pb.h">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HookType.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHookWrap.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\nlohmann\json.hpp">
+      <Filter>ThirdParty\nholmanmn</Filter>
+    </ClInclude>
+    <ClInclude Include="Security\Security.h">
+      <Filter>Security</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier0\memdbgoff.h">
+      <Filter>SDK\tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CHudChat.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CUserCmd.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Entity.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientNetworkable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientRenderable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientUnknown.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\INetMessage.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\INetworkChannel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IVDebugOverlay.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\NetDefines.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VirtualFunction.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Hash.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Input.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Math.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Pattern.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\bitbuf.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientModeShared.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IGameEvent.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\vector.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\TypeShit.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\vector2d.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\math_pfns.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\mathlib.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\D3D9Render.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Renderer.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Pendelum3.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ImguiMenu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\imconfig.h">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\imgui.h">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\imgui_internal.h">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\imstb_rectpack.h">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\imstb_textedit.h">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\imstb_truetype.h">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\backends\imgui_impl_dx9.h">
+      <Filter>ThirdParty\imgui-master\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui-master\backends\imgui_impl_win32.h">
+      <Filter>ThirdParty\imgui-master\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionTypeDeclares.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IBaseClientDLL.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\fnv.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Recv.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ClientClass.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ClassId.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Netvars.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\RebuiltWindowsAPI.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\Custom-GetProcAddress-and-GetModuleHandle\CustomWinApi.h">
+      <Filter>ThirdParty\Custom-GetProcAddress-and-GetModuleHandle</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\DebugEsp.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientEntityList.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ICollideable.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IGlobalVarsBase.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CBoneAccessor.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CStudioHdr.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlvector.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlmemory.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlblockmemory.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\strtools.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlhash.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utllinkedlist.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\generichash.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\raw_buffer.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier0\threadtools.h">
+      <Filter>SDK\tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Studio.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\compressed_vector.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Animations.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlsymbol.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlrbtree.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlfixedmemory.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\stringpool.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier0\memalloc.h">
+      <Filter>SDK\tier0</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\PredictionDefines.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IPrediction.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CPrediction.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CBaseClientState.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\LocalPlayer.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ISurface.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VPanel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\vgui.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ImageFormat.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\imageformat_declarations.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IAppSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IInput.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IVModelInfo.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK-Addition\AnimationToString.h">
+      <Filter>SDK\SDK-Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\netadr.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ents_shared.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK-Addition\Records\PlayerRecord.h">
+      <Filter>SDK\SDK-Addition\Records</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK-Addition\ThreadSafeVar.h">
+      <Filter>SDK\SDK-Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\C_BaseAnimating.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CIKContext.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\shareddefs.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\simdvectormatrix.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\sse.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\ssemath.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\mathlib\ssequaternion.h">
+      <Filter>SDK\mathlib</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlsoacontainer.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="ValveMemoryOverride.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\AnimHooks.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\AssortedNetHooks.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\BeginFrame.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CL_Move.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CreateMove.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\EngineHooks.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\EntityHooks.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\HostRunFrameInput.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\NetChanHooks.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\SendSubChannelData.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IFileSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IInputSystem.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\SteamNetworkingSockets\SNP_SendMessage.h">
+      <Filter>Hooks\SteamNetworkingSockets</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalHelpers.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerformanceLogger.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsInclude.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\CustomConsoleCommands.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IConvar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ICvar.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\convar.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\tier1\utlstring.h">
+      <Filter>SDK\tier1</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GoldenRenderer.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLog.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\EntityListener.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\ESP.h">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK-Addition\DataStore.h">
+      <Filter>SDK\SDK-Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Fonts\Ac437_IBM.h">
+      <Filter>Resource\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Fonts\Ac437_IBM_BIOS_2y.h">
+      <Filter>Resource\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Fonts\Mx437_IBM.h">
+      <Filter>Resource\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\3DGoldenRenderer.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ObjectFileData.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\OBJ_Loader.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CShaderSystemHooks.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK-Addition\Threading.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\FrameStageNotify.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\Chams.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\ChamsHooks.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IMaterial.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IMaterialSystem.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\vtf_declarations.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\vtf.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IStudioRender.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IRenderView.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\KeyValues.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SteamNetSockets\CSteamNetworkingMessage.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\ClientStateHooks.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\TextExploits.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IMatchFramework.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Other\SendMessage.h">
+      <Filter>Source Files\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Offset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\MinHook\buffer.c">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\MinHook\hook.c">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\MinHook\trampoline.c">
+      <Filter>ThirdParty\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\MinHook\hde\hde32.c">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\MinHook\hde\hde64.c">
+      <Filter>ThirdParty\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Protobuf\Headers\CrossCheatTalkMessages.pb.cc">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Protobuf\Headers\netmessages.pb.cc">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Protobuf\Headers\cstrike15_gcmessages.pb.cc">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Protobuf\Headers\cstrike15_usermessages.pb.cc">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Protobuf\Headers\engine_gcmessages.pb.cc">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Protobuf\Headers\steammessages.pb.cc">
+      <Filter>ThirdParty\Protobuf\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHookWrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Security\Security.cpp">
+      <Filter>Security</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HackMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Hash.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Input.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Math.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Pattern.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\bitbuf.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CreateMove.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\D3D9Render.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Renderer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Pendelum3.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ImguiMenu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\imgui.cpp">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\imgui_demo.cpp">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\imgui_draw.cpp">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\imgui_tables.cpp">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\imgui_widgets.cpp">
+      <Filter>ThirdParty\imgui-master</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\backends\imgui_impl_dx9.cpp">
+      <Filter>ThirdParty\imgui-master\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui-master\backends\imgui_impl_win32.cpp">
+      <Filter>ThirdParty\imgui-master\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\HostRunFrameInput.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Netvars.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\RebuiltWindowsAPI.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\Custom-GetProcAddress-and-GetModuleHandle\CustomWinApi.cpp">
+      <Filter>ThirdParty\Custom-GetProcAddress-and-GetModuleHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\DebugEsp.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\BeginFrame.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Entity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\generichash.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier0\threadtools.cpp">
+      <Filter>SDK\tier0</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\utlsymbol.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\stringpool.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CL_Move.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Animations.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK-Addition\AnimationToString.cpp">
+      <Filter>SDK\SDK-Addition</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\EntityHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\AssortedNetHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\NetChanHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK-Addition\Records\PlayerRecord.cpp">
+      <Filter>SDK\SDK-Addition\Records</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\EngineHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\AnimHooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\C_BaseAnimating.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CIKContext.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CStudioHdr.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mathlib\mathlib.cpp">
+      <Filter>SDK\mathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mathlib\mathlib_base.cpp">
+      <Filter>SDK\mathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mathlib\simdvectormatrix.cpp">
+      <Filter>SDK\mathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mathlib\sse.cpp">
+      <Filter>SDK\mathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mathlib\sseconst.cpp">
+      <Filter>SDK\mathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\mathlib\ssenoise.cpp">
+      <Filter>SDK\mathlib</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\utlsoacontainer.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="ValveMemoryOverride.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\SendSubChannelData.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\SteamNetworkingSockets\SNP_SendMessage.cpp">
+      <Filter>Hooks\SteamNetworkingSockets</Filter>
+    </ClCompile>
+    <ClCompile Include="PerformanceLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\CustomConsoleCommands.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\convar.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\utlstring.cpp">
+      <Filter>SDK\tier1</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GoldenRenderer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\EntityListener.cpp">
+      <Filter>Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\ESP.cpp">
+      <Filter>Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK-Addition\DataStore.cpp">
+      <Filter>SDK\SDK-Addition</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\3DGoldenRenderer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ObjectFileData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CShaderSystemHooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK-Addition\Threading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\FrameStageNotify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\Chams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\ChamsHooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\KeyValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\ClientStateHooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\TextExploits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\tier1\newbitbuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Other\SendMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThirdParty\SteamWorks\steam\steam_api.json">
+      <Filter>ThirdParty\SteamWorks\steam</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\any.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\api.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\descriptor.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\duration.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\empty.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\field_mask.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\port_def.inc">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\port_undef.inc">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\source_context.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\struct.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\timestamp.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\type.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+    <None Include="ThirdParty\Protobuf\Headers\google\protobuf\wrappers.proto">
+      <Filter>ThirdParty\Protobuf\Headers\google\protobuf</Filter>
+    </None>
+  </ItemGroup>
+</Project>
